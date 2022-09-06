@@ -1,0 +1,96 @@
+.contact {
+      width: 100%;
+      height: 500px;
+      background: #EAF2FD;
+      
+  }
+  .contact__content {
+      display: flex;
+      justify-content: space-between;
+  }
+  .contact__logo {
+      margin-top: 80px;
+      
+      
+  }
+  .contact__logo___parter {
+      display: flex;
+      align-items: center;
+  }
+  .contact__text{
+      margin-top: 80px;
+  }
+  .contact__text h3 {
+      color: #464646;
+      padding-bottom: 30px;
+      font-family: var(--fonte--principal);
+      font-weight: lighter;
+  }
+  .inputs__contact {
+      display: flex;
+      flex-direction: column;
+      margin-right: 80px;
+  }
+  .inputs__contact h3 {
+      color: #464646;
+  }
+  .input__text___name {
+      width: 500px;
+      margin-bottom: 15px;
+      height: 40px;
+      border: 1px solid rgb(196, 192, 192);
+      font-family: var(--fonte--principal);
+      color:  rgb(196, 192, 192);
+      outline: none;
+  }
+  .input__text {
+      width: 500px;
+      margin-bottom: 15px;
+      border: 1px solid rgb(196, 192, 192);
+      outline: none;
+  }
+  
+  .inputs__contact {
+      margin-top: 80px;
+  }
+  .inputs__contact h3 {
+      font-family: var(--fonte--principal);
+      padding-bottom:  10px;
+  }
+  .btn__contact {
+      width: 200px;
+      height: 40px;
+      background: #2A7AE4;
+      color: #ffffff;
+      font-family: var(--fonte--principal);
+      border: none;
+  }
+  
+  /*=======Responsive==========*/
+  
+  @media screen and (max-width: 768px){
+      .contact__content {
+          display: flex;
+          flex-direction: column;
+      }
+      .inputs__contact{
+          margin: 20px 0;
+          width: 80%;
+      }
+      .input__text {
+          width: 100%;
+          
+      }
+      .input__text___name {
+          width: 100%;
+         
+      }
+      .contact__content {
+          display: flex;
+          align-items: center;
+      }
+      .contact__text{
+          text-align: center;
+      }
+  
+  }
