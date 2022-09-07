@@ -1,0 +1,19 @@
+{
+  "name": "alura_geek_ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncarrillo79/alura_Geek_ecommerce.git"
+  },
+  "author": "Norma Carrillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncarrillo79/alura_Geek_ecommerce/issues"
+  },
+  "homepage": "https://github.com/ncarrillo79/alura_Geek_ecommerce#readme"
+}
